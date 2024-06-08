@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="abdellatif outegnit">
+    <title> Glowing </title>
+    <!--css file-->
+    <link rel="stylesheet" href="style.css">
+    <!-- remixicon cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <!--site icon-->
+    <link rel="icon" href="images/siteIcon.png">
+</head>
+<body>
+    <!--topbar-->
+    <section class="top">
+        <p>free shipping on all u.s. orders $50+</p>
+    </section>
+
+    <!--header-->
+    <header>
+        <section class="topHead">
+            <div class="listIcon">
+                <i class="ri-list-check"></i>
+            </div>
+            <div class="inputsearch">
+                <input type="text" placeholder="Search product">
+                <i class="ri-search-line"></i>
+            </div>
+            <h1>glowing</h1>
+            <ul>
+                <li><a href="#"><i class="ri-user-line"></i></a></li>
+                <li><a href="#"><i class="ri-star-line"></i></a></li>
+                <li><span class="price">$0.00</span><a href="#"><i class="ri-shopping-bag-line"></i></a></li>
+            </ul>
+            <div id="scrollLeft"><i class="ri-skip-left-fill"></i></div>
+        </section>
+        <ul class="ulNavBar">
+            <li>
+                <a href="#index.html" class="link active">home</a>
+            </li>
+            <li>
+                <a href="#collection" class="link">collection</a>
+            </li>
+            <li>
+                <a href="#shop" class="link">shop</a>
+            </li>
+            <li>
+                <a href="#offer" class="link">offer</a>
+            </li>
+            <li>
+                <a href="#blog" class="link">blog</a>
+            </li>
+        </ul>
+    </header>
+
+    <!-- home -->
+    <section class="home" id="index.html" >
+        <div class="imgs">
+            <div class="containeImg activeImg">
+                <img src="images/homeImgOne.png" alt="">
+                <div class="text">
+                    <h1>reveal the beauty of skin</h1>
+                    <p>Made using clean, our products are designed for everyone</p>
+                    <h4> Starting at $7.99 </h4>
+                    <button> Shop Now </button>
+                </div>
+            </div>
+            <div class="containeImg">
+                <img src="images/homeImgTwo.png" alt="">
+                <div class="text">
+                    <h1>reveal the beauty of skin</h1>
+                    <p>Made using clean, our products are designed for everyone</p>
+                    <h4> Starting at $7.99 </h4>
+                    <button> Shop Now </button>
+                </div>
+            </div>
+            <div class="containeImg">
+                <img src="images/homeImgThree.png" alt="">
+                <div class="text">
+                    <h1>reveal the beauty of skin</h1>
+                    <p>Made using clean, our products are designed for everyone</p>
+                    <h4> Starting at $7.99 </h4>
+                    <button> Shop Now </button>
+                </div>
+            </div>
+            <span class="next" onclick="nextBtn()"><i class="ri-arrow-right-s-line"></i></span>
+            <span class="prev" onclick="prevBtn()"><i class="ri-arrow-left-s-line"></i></span>
+        </div>
+    </section>
+
+    <!--cards-->
+    <section class="cards" id="collection">
+        <div class="card-container">
+            <img src="images/cardOne.png" alt="">
+            <div class="card">
+                <div class="content">
+                    <h2> Summer Collection </h2>
+                    <p>Starting at $17.99</p>
+                </div>
+                <button>Shop Now <i class="ri-arrow-right-line"></i></button>
+            </div>
+        </div>
+        <div class="card-container">
+            <img src="images/cardTwo.png" alt="">
+            <div class="card">
+                <div class="content">
+                    <h2> Summer Collection </h2>
+                    <p>Starting at $17.99</p>
+                </div>
+                <button>Shop Now <i class="ri-arrow-right-line"></i></button>
+            </div>
+        </div>
+        <div class="card-container">
+            <img src="images/cardThree.png" alt="">
+            <div class="card">
+                <div class="content">
+                    <h2> Summer Collection </h2>
+                    <p>Starting at $17.99</p>
+                </div>
+                <button>Shop Now <i class="ri-arrow-right-line"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!--scroll slide Products-->
+    <section class="boxProducts" id="shop">
+        <div class="topBox">
+            <h1>our best<span>sellers</span></h1>
+            <span>shop all products <i class="ri-arrow-right-line"></i></span>
+        </div>
+        <div class="boxContainer">
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxOne.png" alt="">
+                <div class="txtBox">
+                    <p><span>$50.99</span>$29.00</p>
+                    <p>hear cleaner</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxTwo.png" alt="">
+                <div class="txtBox">
+                    <p>$59.99</p>
+                    <p>yellow perfume</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxThree.png" alt="">
+                <div class="txtBox">
+                    <p><span>$68.99</span>$31.99</p>
+                    <p>hear cleaner & skin care</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxFour.png" alt="">
+                <div class="txtBox">
+                    <p>$80.00</p>
+                    <p>collection of mekups</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxFive.png" alt="">
+                <div class="txtBox">
+                    <p>$29.00</p>
+                    <p>lips care</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxSix.png" alt="">
+                <div class="txtBox">
+                    <p>$30.00</p>
+                    <p>for bears</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxSeven.png" alt="">
+                <div class="txtBox">
+                    <p><span>$150.99</span>$99.00</p>
+                    <p>increase beauty mekup</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxEight.png" alt="">
+                <div class="txtBox">
+                    <p>$45.00</p>
+                    <p>pinky mekup</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxNine.png" alt="">
+                <div class="txtBox">
+                    <p>$29.00</p>
+                    <p>green shampo</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxTen.png" alt="">
+                <div class="txtBox">
+                    <p>$29.00</p>
+                    <p>skin care</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--scroll slide Products 2-->
+    <section class="boxProducts">
+        <div class="topBox">
+            <h1>Under<span>$25</span></h1>
+            <span>shop all products <i class="ri-arrow-right-line"></i></span>
+        </div>
+        <div class="boxContainer Two">
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/BoxImgS1.png" alt="">
+                <div class="txtBox">
+                    <p><span>$50.99</span>$22.99</p>
+                    <p>baby stroller</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxImgS2.png" alt="">
+                <div class="txtBox">
+                    <p>$19.99</p>
+                    <p>yellow skin care</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxImgS3.png" alt="">
+                <div class="txtBox">
+                    <p><span>$68.99</span>$21.99</p>
+                    <p>hear cleaner & skin care</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxImgS4.png" alt="">
+                <div class="txtBox">
+                    <p>$24.99</p>
+                    <p>collection of blackyShampoo</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxImgS6.png" alt="">
+                <div class="txtBox">
+                    <p>$17.00</p>
+                    <p> collection of woman Shampoo</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxImgS7.png" alt="">
+                <div class="txtBox">
+                    <p>$20.00</p>
+                    <p>for bear & hear</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-70%</span>
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxImgS8.png" alt="">
+                <div class="txtBox">
+                    <p><span>$24.99</span>$99.00</p>
+                    <p>increase beauty by smell</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxImgS5.png" alt="">
+                <div class="txtBox">
+                    <p>$21.00</p>
+                    <p>pinky mekup</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxImgS9.png" alt="">
+                <div class="txtBox">
+                    <p>$18.00</p>
+                    <p>golden mekup</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="sideIcons">
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-star-s-line"></i>
+                    <i class="ri-loop-left-line"></i>
+                </div>
+                <img src="images/boxImgS10.png" alt="">
+                <div class="txtBox">
+                    <p>$24.00</p>
+                    <p>skin care</p>
+                    <div class="txtContent">
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <p>6758 review</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="collec">
+        <div class="collectionContainer">
+            <div class="wallOne">
+                <img src="images/secImG1.png" alt="">
+                <div class="textCollection">
+                    <p>new collection</p>
+                    <h2>discover our autumn skincare</h2>
+                    <button>Explore More</button>
+                </div>
+            </div>
+            <div class="wallTwo">
+                <img src="images/secImg2.png" alt="">
+                <div class="textColleTwo">
+                    <h2>25% off Everything</h2>
+                    <p>Makeup with extended range in color for every human</p>
+                    <button> Shop Sale </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lowerCards">
+        <h1>why shop with <span> glowing? </span></h1>
+        <div class="LowerCardContainer">
+            <div class="lowCard">
+                <img src="images/cardS2.png" alt="">
+                <h2>Guaranteed PURE</h2>
+                <p>All Groce formulations adhere to strict purity
+                    standards and will never contain harsh or toxic ingredients</p>
+            </div>
+            <div class="lowCard">
+                <img src="images/cardS3.png" alt="">
+                <h2>Completely cruelty-free</h2>
+                <p>All Grace formulations adhere to strict purity.
+                    standards and will never contain harsh or Toxic
+                    ingredients</p>
+            </div>
+            <div class="lowCard">
+                <img src="images/cardS1.png" alt="">
+                <h2>Ingredient Sourcing</h2>
+                <p>All Groce formulations adhere to strict purity
+                    standards and will never contain harsh or toxic ingredients</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="offer" id="offer">
+        <div class="Offerimgs">
+            <img src="images/offerImg0.png" alt="">
+            <img src="images/offerImg.png" alt="">
+        </div>
+        <div class="offerText">
+            <p>special offer<span> -20% </span></p>
+            <h1>mountain pine bath oil</h1>
+            <p>Made using clean. non-toxic ingredients. <br> 
+                our products are designed for everyone</p>
+            <div class="date">
+                <span id="days"></span>   
+                <span id="hours"></span>
+                <span id="minutes"></span>
+                <span id="seconds"></span>
+            </div>
+            <button>Get Only $39.00</button>
+        </div>
+    </section>
+
+    <section class="blog" id="blog">
+        <h1>more to discover</h1>
+        <div class="LargeBlog">
+            <div class="blogContainer">
+                <div class="imgB">
+                    <img src="images/ourStoreImg.png" alt="">
+                </div>
+                <h2> find a store </h2>
+                <p>our store <i class="ri-arrow-right-line"></i></p>
+            </div>
+            <div class="blogContainer">
+                <div class="imgB">
+                    <img src="images/ourBlogImg.png" alt="">
+                </div>
+                <h2> find a store </h2>
+                <p>our store <i class="ri-arrow-right-line"></i></p>
+            </div>
+            <div class="blogContainer">
+                <div class="imgB">
+                    <img src="images/ourStoryImg.png" alt="">
+                </div>
+                <h2> find a store </h2>
+                <p>our store <i class="ri-arrow-right-line"></i></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="topFoot">
+            <div class="columnOne">
+                <h2>company</h2>
+                <p>Find a location nearest you. See <br> <a href="#">Our Stores</a></p>
+                <b style="color: rgb(59, 59, 59);">+354 547 52 14</b>
+                <p>dsjnfsd@gmail.com</p>
+            </div>
+            <div class="columnTwo">
+                <h2>Useful links</h2>
+                <p>new products</p>
+                <p>best sellers</p>
+                <p>bundle & save</p>
+                <p>online gift card</p>
+            </div>
+            <div class="columnThree">
+                <h2>information</h2>
+                <p>start a return</p>
+                <p>contact us</p>
+                <p>shipping FAQ</p>
+                <p>terms & conditions</p>
+                <p>privacy policy</p>
+            </div>
+            <div class="columnFour">
+                <h1>good emails</h1>
+                <p>
+                    Enter your email below to be the first to know about new collections<br> and
+                    product launches.
+                </p>
+                <div class="inputEm">
+                    <input type="text" placeholder="Enter yout email address">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="bottomFoot">
+            <div class="sotial">
+                <p>&copy; 2024 abdellatif/</p> 
+                <i class="ri-twitter-x-line"></i>
+                <i class="ri-instagram-line"></i>
+                <i class="ri-facebook-box-line"></i>
+                <i class="ri-youtube-line"></i>
+            </div>
+            <h1>glowing</h1>
+            <div class="ToPay">
+                <img src="images/payment3.png" alt="">
+                <img src="images/payment2.png" alt="">
+                <img src="images/payment1.png" alt="">
+            </div>
+        </div>
+    </footer>
+    
+    <!-- scrollreveal library-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--js file-->
+    <script src="main.js"></script>
+</body>
+</html>
